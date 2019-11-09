@@ -13,10 +13,10 @@ public class TC001_CreateLead extends  ProjectSpecificMethods{
 		testcaseName="Login Logout (POM)";
 		testcaseDec = "Login and Logout to Leaftaps";
 		author="Balaji";
-		category="smoke";
+		category="Test";
 		
 	}
-	
+	//Testing purpose
 	@Test(dataProvider="fetchData")
 	public void runTC001(String username, String password) {
 		new LoginPage()
