@@ -16,7 +16,7 @@ public class TC001_CreateLead extends  ProjectSpecificMethods{
 		category="Test";
 		
 	}
-	//Testing purpose
+	//Testing
 	@Test(dataProvider="fetchData")
 	public void runTC001(String username, String password) {
 		new LoginPage()
